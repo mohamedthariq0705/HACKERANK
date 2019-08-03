@@ -1,0 +1,9 @@
+if __name__ == '__main__':
+    n = int(input())
+    ab = map(int, input().split())
+    ab=list(ab)
+    a=max(ab)
+for i in range(len(ab)):
+    if a in ab:
+        ab.remove(a)
+print(max(ab))
